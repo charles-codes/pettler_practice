@@ -4,43 +4,43 @@ import "./Carousel.css";
 
 function Carousel() {
   return (
-    <div class="bd-example">
-        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    <div className="bd-example">
+        <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
+            <ol className="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" className="active"></li>
                 <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
                 <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
             </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="" class="d-block w-100" alt="..."></img>
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <div className="carousel-inner">
+                <div className="carousel-item active">
+                    <img src="/images/smiling_dog.jpg" width="300px" height="300px" className="d-block" alt="smiling dog"></img>
+                    <div className="carousel-caption d-none d-md-block">
+                        <h5>Dog Supplies, Toys, and more.</h5>
+                        <p>Everything your dog needs to smile.</p>
                     </div>
                 </div>
-            <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="..."></img>
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div className="carousel-item">
+                <img src="/images/happycat.jpg" className="d-block w-100" alt="happy cat"></img>
+                <div className="carousel-caption d-none d-md-block">
+                    <h5>Cat Supplies, Toys, and more.</h5>
+                    <p>Everything your cat needs to purr.</p>
                 </div>
             </div>
-            <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="..."></img>
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
+            <div className="carousel-item">
+                <img src="..." className="d-block w-100" alt="..."></img>
+                <div className="carousel-caption d-none d-md-block">
+                    <h5>T</h5>
                     <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                 </div>
             </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
+        <a className="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span className="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
+        <a className="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+            <span className="sr-only">Next</span>
         </a>
     </div>
 </div>
