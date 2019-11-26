@@ -3,7 +3,9 @@ import {BrowserRouter as Router } from "react-router-dom";
 import NavTabs from "./components/NavTabs/NavTabs";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
-import Carousel from "./components/Carousel";
+// import Carousel from "./components/Carousel";
+import Card from "./components/Card";
+
 import './App.css';
 
 function App() {
@@ -12,7 +14,8 @@ function App() {
       <div>
           <Header />
           <NavTabs />
-          <Carousel />
+          {/* <Carousel /> */}
+          <Card />
           <Footer />
           
 
