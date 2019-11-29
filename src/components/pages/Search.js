@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+import Row from "./Components/Row";
+import Col from "./Components/Col";
+import Container from "./Components/Container";
 
 class Search extends Component {
     state = {
