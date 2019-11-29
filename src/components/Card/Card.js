@@ -4,7 +4,7 @@ import "./Card.css";
 function Card() {
     return (
     <div>
-        <div className="productCard col-md 4">
+        <div className="productCard">
             <img className="" src="/images/happycat.jpg" alt="" />
             <h1>Product Title: </h1> 
             <h2>Product Price: </h2>

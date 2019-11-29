@@ -21,8 +21,9 @@ function App() {
           <Container />
             <Row />
               <Col />
-                <Card />
-              <Col />
+
+              <Card />
+              
           <Footer />
           
 
